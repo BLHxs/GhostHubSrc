@@ -1,4 +1,11 @@
-        game.StarterGui:SetCore("SendNotification",{
+if getgenv().Key == "zbj4ih2jfor23MN" then
+    warn("Loadind")
+end
+
+if getgenv().Key ~= "zbj4ih2jfor23MN" then
+    game.Players.LocalPlayer:Kick("Key Worng")
+end
+game.StarterGui:SetCore("SendNotification",{
             Title = "GhostHuB";
             Text = "Whitelist";
         })
